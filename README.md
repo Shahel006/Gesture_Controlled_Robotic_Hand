@@ -25,14 +25,27 @@ Currently, the system simulates servo movement and will be extended to real hard
 - Implemented hand tracking using MediaPipe  
 - Detected finger states (open/close)  
 - Simulated servo movement using variables  
-- Displayed real-time values on screen  
+- Displayed real-time values on screen
+  
+### 🔹 Version 2 – Gesture Arm Simulation
+- Added smooth servo motion using interpolation  
+- Mapped gestures to robotic arm movement  
+- Visualized robotic arm using matplotlib  
+- Improved realism and responsiveness  
 
 ---
 
 ## 💻 How to Run
 
 1. Install dependencies:
-2.  Run the program:
+pip install opencv-python mediapipe numpy matplotlib
+
+2. Run Version 1:
+python v1_hand_tracking_simulation.py
+
+3. Run Version 2:
+python v2_gesture_arm_simulation.py
+
 ---
 
 ## 🔮 Next Steps
