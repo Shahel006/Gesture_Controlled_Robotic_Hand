@@ -1,3 +1,16 @@
+# ============================================
+# VERSION 3 - ADVANCED GESTURE CONTROL SYSTEM
+# ============================================
+# - Joint angle calculation using vector math
+# - Input filtering for stable gesture detection
+# - Smooth motion using interpolation
+# - Deadzone and snap threshold for stability
+# - Real-time robotic arm simulation with matplotlib
+#
+# This version models real robotic control behavior
+# and prepares the system for Arduino integration.
+# ============================================
+
 import cv2
 import mediapipe as mp
 import numpy as np
