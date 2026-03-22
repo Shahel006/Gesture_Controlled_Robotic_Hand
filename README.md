@@ -11,11 +11,16 @@ This project uses computer vision to detect hand gestures and map them to roboti
 Currently, the system simulates servo movement and will be extended to real hardware control.
 
 ---
+ ## ⚙️ Technologies Used
 
-## ⚙️ Technologies Used
-- Python (OpenCV, MediaPipe)
-- Arduino (for future integration)
+- Python
+- OpenCV
+- MediaPipe (Hand Tracking)
+- NumPy
+- Matplotlib (for early simulation)
+- MuJoCo (Physics-based robotic simulation)
 - Computer Vision
+- Robotics Simulation
 
 ---
 
