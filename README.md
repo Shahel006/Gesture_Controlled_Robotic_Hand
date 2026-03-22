@@ -33,6 +33,22 @@ Currently, the system simulates servo movement and will be extended to real hard
 - Visualized robotic arm using matplotlib  
 - Improved realism and responsiveness  
 
+### 🔷 Version 3 – Advanced Gesture Control (Kinematics)
+
+- Used vector math to calculate real finger joint angles
+- Implemented input filtering for stability
+- Added deadzone and snap threshold to reduce jitter
+- Improved accuracy and responsiveness
+- Displays FPS and real-time servo angles
+
+---
+
+## 🎯 Simulation Preview
+
+This project includes a real-time simulation where:
+- Hand gestures are captured using a webcam
+- Finger movements are mapped to robotic joints
+- The robotic arm moves dynamically based on gestures
 ---
 
 ## 💻 How to Run
