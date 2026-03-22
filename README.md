@@ -48,6 +48,17 @@ Currently, the system simulates servo movement and will be extended to real hard
 
 ---
 
+## 🤖 MuJoCo Integration
+
+This project uses **MuJoCo (Multi-Joint dynamics with Contact)** for advanced robotic simulation.
+
+- Simulates a realistic robotic hand using physics-based modeling
+- Uses joint control (`data.ctrl`) to move fingers
+- Maps real-time human hand gestures to robotic joints
+- Enables smooth and natural motion of the robotic hand
+
+MuJoCo allows this project to move beyond basic visualization into real robotics simulation.
+
 ## 🎯 Simulation Preview
 
 This project includes a real-time simulation where:
