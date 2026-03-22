@@ -45,7 +45,13 @@ Currently, the system simulates servo movement and will be extended to real hard
 - Added deadzone and snap threshold to reduce jitter
 - Improved accuracy and responsiveness
 - Displays FPS and real-time servo angles
+- 
+### 🔷 Version 4 – MuJoCo Robotic Hand Simulation
 
+- Integrated MuJoCo physics engine
+- Controlled robotic hand joints using `data.ctrl`
+- Real-time gesture to robot mapping
+- Smooth control using interpolation
 ---
 
 ## 🤖 MuJoCo Integration
