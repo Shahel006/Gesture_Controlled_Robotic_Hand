@@ -2,7 +2,7 @@
 
 # Gesture Controlled Robotic Hand
 
-A gesture-controlled robotic hand system using MediaPipe and Arduino that replicates human hand movements in real time.
+A gesture-controlled robotic hand system that uses MediaPipe for hand tracking, MuJoCo for physics-based simulation, and Arduino for real-time control of robotic movements.
 
 ---
 
