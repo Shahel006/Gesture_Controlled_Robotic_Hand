@@ -3,9 +3,7 @@
 A gesture-controlled robotic hand system that uses MediaPipe for hand tracking, MuJoCo for physics-based simulation, and Arduino for real-time control of robotic movements.
 
 ---
-🎥 robotic hand  Demo![handmovements_1080x1080](https://github.com/user-attachments/assets/083c0006-d146![siulation_1_1080x1080](https://github.com/user-attachments/assets/50a87366-4655-4ee6-a441-944d61608937)
--4695-92db-88a8285d5956)
-
+🎥 robotic hand  Demo![handmovements_1080x1080]
 
 ## 🧠 Overview
 This project enables natural human-computer interaction by capturing hand gestures using a webcam and translating them into robotic finger movements.
