@@ -181,19 +181,25 @@ Follow these steps to run the project from scratch.
 ⚙️ Servo Wiring (Important)
 
 Each servo has 3 wires:
+
 	•	🟤 Brown / Black → GND
 	•	🔴 Red → VCC (5V)
 	•	🟠 Orange / Yellow → Signal (Control Pin)
+	
 ⸻  
+
 ⚙️ What is a Buck Converter?
 
 A buck converter steps down higher voltage (e.g., 9V/12V) to a stable 5V required by servos.
 
 👉 This prevents:
+
 	•	Arduino resets
 	•	Servo jitter
 	•	Overheating
+	
  ⸻   
+ 
  🔌 Complete Wiring (WITH Buck Converter)
 
 🔹 Step 1: Power Input to Buck Converter
@@ -245,17 +251,23 @@ A buck converter steps down higher voltage (e.g., 9V/12V) to a stable 5V require
 ⚠️ Common Mistakes
 
 ❌ Not setting buck converter to 5V
+
 👉 Can damage servos
 
 ❌ No common ground
+
 👉 Servos won’t respond
 
 ❌ Loose connections
+
 👉 Jitter / random movement
 
 ❌ Weak power supply
+
 👉 Servos stop or reset
-⸻
+
+___
+
 ⚠️ Common Issues & Solutions
 
 ❌ Issue: ModuleNotFoundError
@@ -265,6 +277,7 @@ Cause: Required Python packages are not installed
 Solution:
 pip install opencv-python mediapipe numpy matplotlib mujoco
 ---
+
 ❌ Issue: Camera Not Opening
 
 Cause: Webcam not accessible or already in use
@@ -358,7 +371,8 @@ Cause: Port mismatch or baud rate mismatch
 Solution:
 	•	Match baud rate in both Python and Arduino
 	•	Example:serial.Serial('COM3', 9600)
-  ❌ Issue: Servos Resetting / Arduino Restarting
+	
+❌ Issue: Servos Resetting / Arduino Restarting
 
 Cause: Insufficient power supply
 
@@ -381,15 +395,17 @@ Solution:
 🔮 Next Steps
 
 The following enhancements are planned to further improve the system:
+
 	•	🔌 Real-Time Hardware Integration
-Connect gesture input directly with Arduino to achieve live control of individual servo motors
+     Connect gesture input directly with Arduino to achieve live control of individual servo motors
 	•	🖐️ Independent Finger Control
-Enable precise control of each finger based on real-time gesture angles
+    Enable precise control of each finger based on real-time gesture angles
 	•	🎯 Improved Gesture Accuracy
-Enhance tracking stability using advanced filtering and smoothing techniques
+    Enhance tracking stability using advanced filtering and smoothing techniques
 	•	🤖 Complete Physical Robotic Hand
-Develop a fully functional robotic hand with optimized mechanical design
+    Develop a fully functional robotic hand with optimized mechanical design
 	•	📡 Wireless Communication (Future Scope)
-Implement Bluetooth/WiFi control for untethered operation
+    Implement Bluetooth/WiFi control for untethered operation
 
 ⸻
+
