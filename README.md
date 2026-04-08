@@ -7,6 +7,7 @@ A gesture-controlled robotic hand system that uses MediaPipe for hand tracking, 
 
 ![mujoco_1080x608](https://github.com/user-attachments/assets/32693cd3-f3da-4d8d-984d-56c164360f61)
 
+![handmovements_1080x608](https://github.com/user-attachments/assets/b643875a-8f97-447e-89ec-f45bcd9de111)
 
 
 
