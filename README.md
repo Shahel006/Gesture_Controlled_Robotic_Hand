@@ -4,7 +4,8 @@ A gesture-controlled robotic hand system that uses MediaPipe for hand tracking, 
 
 ---
 🎥 robotic hand demo
-![siulation_1_864x1080](https://github.com/user-attachments/assets/5c8937a2-ed2b-4cae-b909-defe6c3a2dc2)
+![mujoco_1080x608](https://github.com/user-attachments/assets/b5c66e62-c3fe-483a-b8ae-e3ae096b868a)
+
 
 
 
