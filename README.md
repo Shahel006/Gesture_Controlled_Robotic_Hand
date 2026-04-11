@@ -158,7 +158,7 @@ Follow these steps to run the project from scratch.
 	•	Install all required dependencies
 	•	Prepare the project
 
-
+---
 
 🔹 Method 2: Manual Setup
 
