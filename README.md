@@ -154,6 +154,7 @@ Follow these steps to run the project from scratch.
  setup.bat
  
 👉 This will automatically:
+
 	•	Create a virtual environment
 	•	Install all required dependencies
 	•	Prepare the project
