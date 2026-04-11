@@ -141,6 +141,27 @@ This project includes a real-time simulation where:
 📘 Detailed Setup Guide (Step-by-Step)
 
 Follow these steps to run the project from scratch.
+
+🔹 Method 1: One-Click Setup (Recommended)
+
+▶️ Mac/Linux
+
+ chmod +x setup.sh
+./setup.sh
+
+▶️ Windows
+
+ setup.bat
+ 
+👉 This will automatically:
+	•	Create a virtual environment
+	•	Install all required dependencies
+	•	Prepare the project
+
+
+
+🔹 Method 2: Manual Setup
+
 🔹 Step 1: Clone the Repository
  -  git clone https://github.com/your-username/gesture-robotic-hand.git
  -  cd gesture-robotic-hand
