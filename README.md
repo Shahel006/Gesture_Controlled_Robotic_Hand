@@ -105,6 +105,7 @@ The robotic hand is implemented using Arduino and servo motors.
 <img width="471" height="522" alt="Screenshot 2026-04-08 at 7 44 34 AM" src="https://github.com/user-attachments/assets/6330d6e1-1118-4a4a-a4ec-e96972c22eac" />
 
 🔌 Components
+
 	•	Arduino Nano
 	•	Servo Motors
 	•	External Power Supply
@@ -112,6 +113,7 @@ The robotic hand is implemented using Arduino and servo motors.
 	•	Robotic Hand Structure
 
 ⚙️ Working
+
 	•	Arduino controls servos to move fingers
 	•	Fingers successfully perform open and close motion
 	•	Mechanical system (strings/joints) converts rotation into finger movement
@@ -192,6 +194,7 @@ Follow these steps to run the project from scratch.
 🤖 Hardware Setup (Detailed)
 
 🔌 Components Required
+
 	•	Arduino Nano
 	•	Servo Motors (SG90 / MG996R)
 	•	External Power Supply(5V–6V recommended)
@@ -225,6 +228,7 @@ A buck converter steps down higher voltage (e.g., 9V/12V) to a stable 5V require
  🔌 Complete Wiring (WITH Buck Converter)
 
 🔹 Step 1: Power Input to Buck Converter
+
 	•	Connect battery/adaptor:
 	•	+ (Positive) → IN+ (Buck Converter)
 	•	– (Negative) → IN– (Buck Converter)
@@ -232,6 +236,7 @@ A buck converter steps down higher voltage (e.g., 9V/12V) to a stable 5V require
 ⸻
 
 🔹 Step 2: Set Output Voltage ⚠️
+
 	•	Adjust potentiometer on buck converter
 	•	Use multimeter
 	•	Set output to 5V
@@ -239,12 +244,14 @@ A buck converter steps down higher voltage (e.g., 9V/12V) to a stable 5V require
 ⸻
 
 🔹 Step 3: Power Servos
+
 	•	Buck Converter OUT+ → All servo Red wires
 	•	Buck Converter OUT– → All servo Brown wires
 
 ⸻
 
 🔹 Step 4: Connect Arduino
+
 	•	Arduino GND → Buck Converter OUT– (COMMON GROUND)
 
 👉 This step is mandatory
@@ -252,6 +259,7 @@ A buck converter steps down higher voltage (e.g., 9V/12V) to a stable 5V require
 ⸻
 
 🔹 Step 5: Signal Connections
+
 	•	Thumb → D3
 	•	Index → D5
 	•	Middle → D6
@@ -260,6 +268,7 @@ A buck converter steps down higher voltage (e.g., 9V/12V) to a stable 5V require
   
 ⸻
 ⚙️ Step-by-Step Execution
+
 	1.	Connect power source → buck converter input
 	2.	Adjust output voltage to 5V
 	3.	Connect servos to buck converter output
