@@ -13,8 +13,6 @@ A gesture-controlled robotic hand system that uses MediaPipe for hand tracking, 
 
 
 
-
-
 ## 🧠 Overview
 This project enables natural human-computer interaction by capturing hand gestures using a webcam and translating them into robotic finger movements.
 
@@ -55,7 +53,26 @@ This project aims to develop an intuitive, real-time gesture-based control syste
 	•	🧩 Modular design (Simulation + Hardware)
 
   ---
+⚙️ How It Works
 
+<img width="178" height="309" alt="Screenshot 2026-04-27 at 9 31 43 PM" src="https://github.com/user-attachments/assets/293030ca-f1d0-46ad-9bad-fc01105e823a" />
+
+1. Capture Input
+    A webcam continuously captures real-time video of hand movements.
+2. Hand Landmark Detection
+    MediaPipe processes each frame to detect hand landmarks and track finger positions.
+3. Gesture Analysis
+    Finger joint angles are calculated using vector-based computations.
+4. Mapping to Actuation
+    The calculated angles are mapped to corresponding servo motor positions.
+5. Data Transmission
+    The processed data is transmitted to the Arduino via serial communication (PySerial).
+6. Hardware Execution
+    The Arduino interprets the received data and controls the servo motors accordingly.
+7. Robotic Movement
+    The robotic hand replicates human finger movements in real time.
+
+----   
 ## 🚧 Development Progress
 
 ### 🔹 Version 1 – Software Simulation
@@ -451,21 +468,49 @@ Solution:
 	•	Adjust output to 5V before connecting servos
 
 ⸻
+## 💡 Key Learnings
 
-🔮 Next Steps
+- Real-time hand tracking using MediaPipe  
+- Gesture-to-motion mapping using kinematics  
+- Serial communication between Python and Arduino  
+- Servo motor control and calibration  
+- Integration of simulation and physical hardware
 
-The following enhancements are planned to further improve the system:
+---
 
-	•	🔌 Real-Time Hardware Integration
-     Connect gesture input directly with Arduino to achieve live control of individual servo motors
-	•	🖐️ Independent Finger Control
-    Enable precise control of each finger based on real-time gesture angles
-	•	🎯 Improved Gesture Accuracy
-    Enhance tracking stability using advanced filtering and smoothing techniques
-	•	🤖 Complete Physical Robotic Hand
-    Develop a fully functional robotic hand with optimized mechanical design
-	•	📡 Wireless Communication (Future Scope)
-    Implement Bluetooth/WiFi control for untethered operation
+## 🚀 Current Status
+
+The following features have been successfully implemented:
+
+- 🔌 **Real-Time Hardware Integration**  
+  Achieved direct communication between gesture input and Arduino for live servo control.
+
+- 🖐️ **Independent Finger Control**  
+  Implemented precise control of each finger using real-time gesture angle mapping.
+
+- 🎯 **Improved Gesture Accuracy**  
+  Enhanced tracking stability using filtering, smoothing, and noise reduction techniques.
+
+- 🤖 **Complete Physical Robotic Hand**  
+  Developed a functional robotic hand with optimized mechanical design and movement.
+
+---
+
+## 🔮 Future Enhancements
+
+- 📡 **Wireless Communication**  
+  Implement Bluetooth/WiFi modules for untethered control of the robotic hand.
+
+- 🧤 **Glove-Based Control System** *(Optional Upgrade)*  
+  Integrate flex sensors with a wearable glove for more precise gesture input.
+
+- ⚡ **Performance Optimization**  
+  Improve system efficiency and reduce latency for faster real-time response.
 
 ⸻
 
+## 👨‍💻 Author
+
+**Shahel Mohammed**  
+BCA – AI, ML & Robotics  
+Yenepoya University  
