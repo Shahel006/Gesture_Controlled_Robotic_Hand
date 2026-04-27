@@ -55,8 +55,8 @@ This project aims to develop an intuitive, real-time gesture-based control syste
 
   ---
 
-  
-  ## 🌍 Applications
+
+ ## 🌍 Applications
 
 This gesture-controlled robotic hand system has potential applications in various real-world domains:
 
@@ -84,10 +84,12 @@ This gesture-controlled robotic hand system has potential applications in variou
 
 ----
 
-
 ⚙️ How It Works
 
 <img width="178" height="309" alt="Screenshot 2026-04-27 at 9 31 43 PM" src="https://github.com/user-attachments/assets/293030ca-f1d0-46ad-9bad-fc01105e823a" />
+
+
+
 
 
 1. Capture Input
