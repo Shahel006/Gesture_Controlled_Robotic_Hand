@@ -98,6 +98,30 @@ This project aims to develop an intuitive, real-time gesture-based control syste
 - Achieved real-time physics-based robotic hand simulation  
 
 ---
+
+🔷 Version 6 – Hardware Integration (Arduino + Servos)
+
+* Established serial communication between Python and Arduino using PySerial
+* Transmitted real-time finger angle data from computer vision system to hardware
+* Controlled multiple servo motors to replicate finger movements
+* Implemented angle mapping and calibration for each finger
+* Integrated external power supply with buck converter for stable servo operation
+* Achieved real-time gesture-based control of the physical robotic hand
+  
+---  
+
+🔷 Version 7 – System Optimization & Stability Improvements
+
+* Improved motion smoothness using advanced filtering techniques
+* Reduced servo jitter through deadzone tuning and signal stabilization
+* Optimized serial communication for faster and reliable data transfer
+* Fine-tuned finger angle mapping for better accuracy and realism
+* Enhanced overall system performance and responsiveness
+* Conducted extensive testing for consistent real-time operation
+
+---
+
+
 🤖 Physical Robotic Hand
 
 The robotic hand is implemented using Arduino and servo motors.
@@ -226,6 +250,9 @@ A buck converter steps down higher voltage (e.g., 9V/12V) to a stable 5V require
  ⸻   
  
  🔌 Complete Wiring (WITH Buck Converter)
+
+ <img width="483" height="312" alt="Screenshot 2026-04-27 at 9 22 24 PM" src="https://github.com/user-attachments/assets/8f7a8ca2-7fb7-47cf-91f5-f3b8ead18963" />
+
 
 🔹 Step 1: Power Input to Buck Converter
 
