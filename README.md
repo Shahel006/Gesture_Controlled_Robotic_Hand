@@ -230,6 +230,7 @@ Follow this guide to set up and run the Gesture-Controlled Robotic Hand project 
  ```
 
 🔹 Step 2: Run Setup Script
+
 ▶️ Mac / Linux
 ```
  chmod +x setup.sh
