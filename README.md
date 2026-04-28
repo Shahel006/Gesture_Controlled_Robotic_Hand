@@ -1,4 +1,3 @@
-
 # Gesture Controlled Robotic Hand
 
 A gesture-controlled robotic hand system that uses MediaPipe for hand tracking, MuJoCo for physics-based simulation, and Arduino for real-time control of robotic movements.
@@ -87,8 +86,6 @@ This gesture-controlled robotic hand system has potential applications in variou
 ⚙️ How It Works
 
 <img width="178" height="309" alt="Screenshot 2026-04-27 at 9 31 43 PM" src="https://github.com/user-attachments/assets/293030ca-f1d0-46ad-9bad-fc01105e823a" />
-
-
 
 
 
@@ -220,54 +217,78 @@ This project includes a real-time simulation where:
 ---
 📘 Detailed Setup Guide (Step-by-Step)
 
-Follow these steps to run the project from scratch.
+Follow this guide to set up and run the Gesture-Controlled Robotic Hand project from scratch.
 
-🔹 Method 1: One-Click Setup (Recommended)
+🚀 Quick Start (Recommended – Fastest Way)
 
-▶️ Mac/Linux
+👉 If you just want to run the project quickly, follow these steps:
+🔹 Step 1: Clone the Repository
+ 
+ • git clone https://github.com/your-username/gesture-robotic-hand.git
+ • cd gesture-robotic-hand
+ 
+🔹 Step 2: Run Setup Script
+▶️ Mac / Linux
 
- chmod +x setup.sh
+run chmod +x setup.sh
 ./setup.sh
 
 ▶️ Windows
 
- setup.bat
- 
-👉 This will automatically:
+run setup.bat
 
-	•	Create a virtual environment
-	•	Install all required dependencies
-	•	Prepare the project
+🔹 Step 3: Run the Project
 
+👉 Choose one:
+
+🧪 Simulation Mode
+
+  source sim_env/bin/activate
+  python v5_mujoco_hand_simulation.py
+
+🤖 Hardware Mode
+
+source hardware_env/bin/activate
+python v7_hardware_integration.py
 ---
+🛠️ Manual Setup (Detailed)
 
-🔹 Method 2: Manual Setup
-
+(Use this if the quick setup doesn’t work or you want full control)
 🔹 Step 1: Clone the Repository
- -  git clone https://github.com/your-username/gesture-robotic-hand.git
- -  cd gesture-robotic-hand
-   
-🔹 Step 2: Create Virtual Environment   
- - python -m venv sim_env
-   Activate it:
-	•	Mac/Linux: source sim_env/bin/activate
-	•	Windows: sim_env\Scripts\activate
+    git clone https://github.com/your-username/gesture-robotic-hand.git
+    cd gesture-robotic-hand
+🔹 Step 2: Create Virtual Environments
 
+🧠 Simulation Environment
+
+  python -m venv sim_env
+  source sim_env/bin/activate   # Mac/Linux
+
+🤖 Hardware Environment
+
+   python -m venv hardware_env
+   source hardware_env/bin/activate
+   
 🔹 Step 3: Install Dependencies
- - pip install opencv-python mediapipe numpy matplotlib mujoco
-   
-🔹 Step 4: Install MuJoCo (Important)
- - pip install mujoco
- • Test installation: python -c "import mujoco"
 
-🔹 Step 5: Run the Project
- • Run basic hand tracking:
- - python v1_hand_tracking_simulation.py
- • Run gesture simulation:
- - python v2_gesture_arm_simulation.py
- • Run MuJoCo simulation:
- - python v5_mujoco_hand_simulation.py
-   
+ For Simulation  
+ pip install opencv-python mediapipe numpy matplotlib mujoco
+
+ For Hardware
+ pip install opencv-python mediapipe numpy pyserial
+ 
+ 🔹 Step 4: Run the Project
+ 
+  🧪 Simulation
+  
+  source sim_env/bin/activate
+  python v5_mujoco_hand_simulation.py
+  
+  🤖 Hardware
+
+  source hardware_env/bin/activate
+  python v7_hardware_integration.py
+  
 ---
 🤖 Hardware Setup (Detailed)
 
