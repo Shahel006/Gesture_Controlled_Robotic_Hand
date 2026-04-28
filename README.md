@@ -245,12 +245,10 @@ Follow this guide to set up and run the Gesture-Controlled Robotic Hand project 
 
 🧪 Simulation Mode
 ```
-  source sim_env/bin/activate
-  python v5_mujoco_hand_simulation.py
+ mjpython v5_mujoco_hand_simulation.py
 ```
 🤖 Hardware Mode
 ```
-source hardware_env/bin/activate
 python v7_hardware_integration.py
 ```
 ---
@@ -258,6 +256,7 @@ python v7_hardware_integration.py
 🛠️ Manual Setup (Detailed)
 
 (Use this if the quick setup doesn’t work or you want full control)
+
 🔹 Step 1: Clone the Repository
 ```
     git clone https://github.com/your-username/gesture-robotic-hand.git
