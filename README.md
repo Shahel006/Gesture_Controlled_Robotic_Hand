@@ -224,71 +224,79 @@ Follow this guide to set up and run the Gesture-Controlled Robotic Hand project 
 👉 If you just want to run the project quickly, follow these steps:
 🔹 Step 1: Clone the Repository
  
- • git clone https://github.com/your-username/gesture-robotic-hand.git
- • cd gesture-robotic-hand
- 
+  ```
+ git clone https://github.com/your-username/gesture-robotic-hand.git
+ cd gesture-robotic-hand
+ ```
+
 🔹 Step 2: Run Setup Script
 ▶️ Mac / Linux
-
-run chmod +x setup.sh
+```
+ chmod +x setup.sh
 ./setup.sh
-
+```
 ▶️ Windows
-
-run setup.bat
-
+```
+ setup.bat
+```
 🔹 Step 3: Run the Project
 
 👉 Choose one:
 
 🧪 Simulation Mode
-
+```
   source sim_env/bin/activate
   python v5_mujoco_hand_simulation.py
-
+```
 🤖 Hardware Mode
-
+```
 source hardware_env/bin/activate
 python v7_hardware_integration.py
+```
 ---
+
 🛠️ Manual Setup (Detailed)
 
 (Use this if the quick setup doesn’t work or you want full control)
 🔹 Step 1: Clone the Repository
+```
     git clone https://github.com/your-username/gesture-robotic-hand.git
     cd gesture-robotic-hand
+```
 🔹 Step 2: Create Virtual Environments
 
 🧠 Simulation Environment
-
+```
   python -m venv sim_env
   source sim_env/bin/activate   # Mac/Linux
-
+```
 🤖 Hardware Environment
-
+```
    python -m venv hardware_env
    source hardware_env/bin/activate
-   
+  ``` 
 🔹 Step 3: Install Dependencies
 
  For Simulation  
+ ```
  pip install opencv-python mediapipe numpy matplotlib mujoco
-
+```
  For Hardware
+ ```
  pip install opencv-python mediapipe numpy pyserial
- 
+ ```
  🔹 Step 4: Run the Project
  
   🧪 Simulation
-  
+  ```
   source sim_env/bin/activate
   python v5_mujoco_hand_simulation.py
-  
+  ```
   🤖 Hardware
-
+```
   source hardware_env/bin/activate
   python v7_hardware_integration.py
-  
+ ``` 
 ---
 🤖 Hardware Setup (Detailed)
 
