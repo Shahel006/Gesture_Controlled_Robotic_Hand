@@ -222,8 +222,8 @@ Follow this guide to set up and run the Gesture-Controlled Robotic Hand project 
 🚀 Quick Start (Recommended – Fastest Way)
 
 👉 If you just want to run the project quickly, follow these steps:
+
 🔹 Step 1: Clone the Repository
- 
   ```
  git clone https://github.com/your-username/gesture-robotic-hand.git
  cd gesture-robotic-hand
